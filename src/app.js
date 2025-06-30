@@ -9,6 +9,8 @@ import {
 import authRoutes from "./routes/auth.js";
 import dotenv from "dotenv";
 
+// hello there
+
 
 dotenv.config();
 
