@@ -9,6 +9,13 @@ import {
 import authRoutes from "./routes/auth.js";
 import dotenv from "dotenv";
 
+import express from 'express';
+import videoTokenRoute from './routes/videoToken.js';
+
+app.use(express.json());
+app.use('/api/video-token', videoTokenRoute);
+
+
 // hello there
 
 
